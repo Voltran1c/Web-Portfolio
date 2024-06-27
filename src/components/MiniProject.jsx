@@ -1,56 +1,89 @@
 import React from "react";
 
-function MiniProject() {
+const MiniProject = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <div className="w-3/5 flex flex-col gap-1">
-        <h2 className="text-6xl italic font-semibold border-y-4 py-2 border-gray-300 flex justify-center">
-          PORTFOLIO PORTFOLIO PORTFOLIO
-        </h2>
-        <div className="flex justify-center flex-col items-center h-full">
-          <div className="w-full flex justify-between items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer">
-            <h3 className="w-full mr-12 italic font-semibold text-3xl pl-12">
-              01. WEB COMMERCE
-            </h3>
-            <p className="mr-12 italic font-semibold text-xl text-gray-500 text-justify">
-              User experience is at the heart of what we do in Rethink
-              studio.Our UI/UX design services focus on creating intuitive,
-              visually appealing interfaces that captivate users.
-            </p>
-          </div>
-          <div className="w-full flex justify-between items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer">
-            <h3 className="w-full mr-12 italic font-semibold text-3xl pl-12">
-              02. MOTION DESIGN
-            </h3>
-            <p className="mr-12 italic font-semibold text-xl text-gray-500 text-justify">
-              User experience is at the heart of what we do in Rethink
-              studio.Our UI/UX design services focus on creating intuitive,
-              visually appealing interfaces that captivate users.
-            </p>
-          </div>
-          <div className="w-full flex justify-center items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer">
-            <h3 className="w-full mr-12 italic font-semibold text-3xl pl-12">
-              03. UX/XI DESIGN
-            </h3>
-            <p className="mr-12 italic font-semibold text-xl text-gray-500 text-justify">
-              User experience is at the heart of what we do in Rethink
-              studio.Our UI/UX design services focus on creating intuitive,
-              visually appealing interfaces that captivate users.
-            </p>
-          </div>
-          <div className="w-full flex justify-between items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer">
-            <h3 className="w-full mr-12 italic font-semibold text-3xl pl-12">
-              04. CREATIVE
-            </h3>
-            <p className="mr-12 italic font-semibold text-xl text-gray-500 text-justify">
-              User experience is at the heart of what we do in Rethink
-              studio.Our UI/UX design services focus on creating intuitive,
-              visually appealing interfaces that captivate users.
-            </p>
+    <>
+      <section className="bg-white pb-10 pt-20 flex justify-center border-b border-t">
+        <div className="container w-full h-screen">
+          <div className="grid grid-cols-3 gap-16">
+            <SingleCard
+              image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
+              CardTitle="Build a Calculator"
+              CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
+              Button="Learn more"
+            />
+            <SingleCard
+              image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
+              CardTitle="URL Shortening Landing Page"
+              CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
+              Button="Learn more"
+            />
+            <SingleCard
+              image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
+              CardTitle="Rock, Paper, Scissors Game"
+              CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
+              Button="Learn more"
+            />
+            <SingleCard
+              image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
+              CardTitle="To Do List App"
+              CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
+              Button="Learn more"
+            />
+            <SingleCard
+              image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
+              CardTitle="REST Countries API with Color theme Switcher"
+              CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
+              Button="Learn more"
+            />
+            <SingleCard
+              image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
+              CardTitle="Calendar Viewer Component"
+              CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
+              Button="Learn more"
+            />
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
-}
+};
+
 export default MiniProject;
+
+const SingleCard = ({
+  image,
+  Button,
+  CardDescription,
+  CardTitle,
+  titleHref,
+  btnHref,
+}) => {
+  return (
+    <>
+      <div className="mb-10 overflow-hidden rounded-lg border-slate-200 duration-300 border hover:shadow-lg">
+        <img src={image} alt="" className="w-full saturate-200" />
+        <div className="p-8 text-center">
+          <h3>
+            <a
+              href={titleHref ? titleHref : "/#"}
+              className="mb-4 block text-xl font-semibold hover:text-black sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+            >
+              {CardTitle}
+            </a>
+          </h3>
+          <p className="mb-7 text-base leading-relaxed">{CardDescription}</p>
+
+          {Button && (
+            <a
+              href={btnHref ? btnHref : "#"}
+              className="inline-block rounded-full border hover:bg-gray-800 hover:text-white px-7 py-2 text-base font-medium transition"
+            >
+              {Button}
+            </a>
+          )}
+        </div>
+      </div>
+    </>
+  );
+};

@@ -1,16 +1,18 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Hero from "./components/Hero";
-import MiniProject from "./components/MiniProject";
+import Project from "./components/Project";
 import Navbar from "./components/Navbar";
+import MiniProject from "./components/MiniProject";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <MiniProject />
-      <AboutMe />
+      <Project />
+      <MiniProject/>
+      {/* <AboutMe /> */}
     </>
   );
 }

@@ -1,16 +1,17 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const MiniProject = () => {
   return (
     <>
-      <section className="bg-white pb-10 pt-20 flex justify-center border-b border-t">
+      <section className="bg-white pb-10 pt-20 flex justify-center">
         <div className="container w-full h-screen">
           <div className="grid grid-cols-3 gap-16">
             <SingleCard
               image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
-              CardTitle="Build a Calculator"
+              CardTitle="To Do List App"
               CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
               Button="Learn more"
+              btnHref="https://github.com/Voltran1c/MiniProject_ToDoList.git"
             />
             <SingleCard
               image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
@@ -26,7 +27,7 @@ const MiniProject = () => {
             />
             <SingleCard
               image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
-              CardTitle="To Do List App"
+              CardTitle="Build a Calculator"
               CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
               Button="Learn more"
             />
@@ -49,8 +50,6 @@ const MiniProject = () => {
   );
 };
 
-export default MiniProject;
-
 const SingleCard = ({
   image,
   Button,
@@ -66,7 +65,7 @@ const SingleCard = ({
         <div className="p-8 text-center">
           <h3>
             <a
-              href={titleHref ? titleHref : "/#"}
+              href={titleHref ? titleHref : "#"}
               className="mb-4 block text-xl font-semibold hover:text-black sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
             >
               {CardTitle}
@@ -87,3 +86,14 @@ const SingleCard = ({
     </>
   );
 };
+
+SingleCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  Button: PropTypes.node.isRequired,
+  CardDescription: PropTypes.string.isRequired,
+  CardTitle: PropTypes.string.isRequired,
+  titleHref: PropTypes.string,
+  btnHref: PropTypes.string,
+};
+
+export default MiniProject;

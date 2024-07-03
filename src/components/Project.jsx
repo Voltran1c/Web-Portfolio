@@ -1,5 +1,3 @@
-import React from "react";
-
 function Project() {
   return (
     <div className="w-full h-screen flex justify-center items-center">
@@ -8,7 +6,10 @@ function Project() {
           PORTFOLIO PORTFOLIO PORTFOLIO
         </h2>
         <div className="flex justify-center flex-col items-center h-full">
-          <div className="w-full flex justify-between items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer">
+          <a
+            className="w-full flex justify-between items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer"
+            href="#"
+          >
             <h3 className="w-full mr-12 italic font-semibold text-3xl pl-12">
               01. WEB COMMERCE
             </h3>
@@ -17,8 +18,11 @@ function Project() {
               studio.Our UI/UX design services focus on creating intuitive,
               visually appealing interfaces that captivate users.
             </p>
-          </div>
-          <div className="w-full flex justify-between items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer">
+          </a>
+          <a
+            className="w-full flex justify-between items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer"
+            href="#"
+          >
             <h3 className="w-full mr-12 italic font-semibold text-3xl pl-12">
               02. MOTION DESIGN
             </h3>
@@ -27,8 +31,11 @@ function Project() {
               studio.Our UI/UX design services focus on creating intuitive,
               visually appealing interfaces that captivate users.
             </p>
-          </div>
-          <div className="w-full flex justify-center items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer">
+          </a>
+          <a
+            className="w-full flex justify-center items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer"
+            href="#"
+          >
             <h3 className="w-full mr-12 italic font-semibold text-3xl pl-12">
               03. UX/XI DESIGN
             </h3>
@@ -37,8 +44,11 @@ function Project() {
               studio.Our UI/UX design services focus on creating intuitive,
               visually appealing interfaces that captivate users.
             </p>
-          </div>
-          <div className="w-full flex justify-between items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer">
+          </a>
+          <a
+            className="w-full flex justify-between items-center border-b-2 py-4 hover:bg-slate-200 hover:cursor-pointer"
+            href="#"
+          >
             <h3 className="w-full mr-12 italic font-semibold text-3xl pl-12">
               04. CREATIVE
             </h3>
@@ -47,7 +57,7 @@ function Project() {
               studio.Our UI/UX design services focus on creating intuitive,
               visually appealing interfaces that captivate users.
             </p>
-          </div>
+          </a>
         </div>
       </div>
     </div>

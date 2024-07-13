@@ -10,7 +10,7 @@ const posts = [
     category: { title: "React" },
     author: {
       name: "Learn more",
-      href: "https://github.com/Voltran1c/MiniProject_ToDoList.git",
+      href: "https://mini-project-to-do-list-chi.vercel.app/",
       imageUrl: "https://cdn-icons-png.flaticon.com/512/1/1560.png",
     },
   },

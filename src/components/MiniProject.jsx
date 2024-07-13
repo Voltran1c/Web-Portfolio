@@ -2,7 +2,7 @@ const posts = [
   {
     id: 1,
     title: "To Do List App",
-    href: "https://github.com/Voltran1c/MiniProject_ToDoList.git",
+    href: "https://mini-project-to-do-list-chi.vercel.app/",
     description:
       "A personal note-taking app that allows editing or deleting completed items and changing their status to complete or incomplete.",
     date: "Jun 16, 2024",
@@ -10,38 +10,40 @@ const posts = [
     category: { title: "React" },
     author: {
       name: "Learn more",
-      href: "https://mini-project-to-do-list-chi.vercel.app/",
+      href: "https://github.com/Voltran1c/MiniProject_ToDoList.git",
       imageUrl: "https://cdn-icons-png.flaticon.com/512/1/1560.png",
     },
   },
   {
     id: 2,
-    title: "URL Shortening Landing Page",
-    href: "#",
+    title: "Shopping Cart",
+    href: "https://38-watcharapong-js.vercel.app/",
     description:
-      "A webpage that provides URL shortening services to convert long URLs into shorter ones for easier sharing or forwarding.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
-    category: { title: "React" },
+      "Develop a shopping cart page to add products, requiring product name, price, and image. Validate all inputs and calculate total product prices.",
+    date: "May 24, 2024",
+    datetime: "2024-05-24",
+    category: { title: "JavaScript" },
     author: {
       name: "Learn more",
-      href: "#",
-      imageUrl: "https://cdn-icons-png.flaticon.com/512/1078/1078454.png",
+      href: "https://github.com/Voltran1c/38_Watcharapong-JS",
+      imageUrl:
+        "https://static.vecteezy.com/system/resources/previews/027/381/351/original/shopping-cart-icon-shopping-trolley-icon-shopping-cart-logo-container-for-goods-and-products-economics-symbol-design-elements-basket-symbol-silhouette-retail-design-elements-vector.jpg",
     },
   },
   {
     id: 3,
-    title: "Rock, Paper, Scissors Game",
-    href: "#",
+    title: "Pokemon-API",
+    href: "https://mini-project-fetch-pokemon-api.vercel.app/",
     description:
-      "A game where players choose between Rock, Paper, or Scissors and challenge the computer.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
+      "Use axios to send a GET request to the Pokemon API URL to fetch Pokemon data. Handle errors that occur during data retrieval by displaying the error.",
+    date: "Jun 06, 2024",
+    datetime: "2024-06-06",
     category: { title: "React" },
     author: {
       name: "Learn more",
-      href: "#",
-      imageUrl: "https://cdn-icons-png.flaticon.com/512/6688/6688580.png",
+      href: "https://github.com/Voltran1c/React-Pokemon-API",
+      imageUrl:
+        "https://cdn.icon-icons.com/icons2/1898/PNG/512/pokemon_121114.png",
     },
   },
   {
@@ -145,7 +147,7 @@ function MiniProject() {
                   className="h-10 w-10 rounded-full bg-gray-50"
                 />
                 <div className="text-sm leading-6">
-                  <p className="font-semibold text-slate-800">
+                  <p className="font-semibold text-slate-800 underline">
                     <a href={post.author.href} target="_blank">
                       <span className="absolute inset-0" />
                       {post.author.name}

@@ -45,6 +45,16 @@ function AboutMe() {
               />
             </a>
             <a
+              href="https://drive.google.com/file/d/1YvWvdbMm1pytBJuC2yS33cM69VnCS2AC/view?usp=sharing"
+              target="_blank"
+            >
+              <img
+                src="/images/logo/CV.svg"
+                alt="cv"
+                className="w-10 h-10 mx-12"
+              />
+            </a>
+            <a
               href="https://www.instagram.com/pp.watcharapong/"
               target="_blank"
             >

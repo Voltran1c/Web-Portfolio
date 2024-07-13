@@ -6,7 +6,7 @@ function Project() {
     >
       <div className="w-3/5 flex flex-col gap-1">
         <h2 className="text-6xl italic font-semibold border-y-4 py-4 border-gray-300 flex justify-center text-slate-800">
-          PORTFOLIO PORTFOLIO PORTFOLIO
+          PROJECT PROJECT PROJECT
         </h2>
         <div className="flex justify-center flex-col items-center h-full text-slate-800">
           <a

@@ -3,7 +3,7 @@ import "./AboutMe.css";
 function AboutMe() {
   return (
     <div
-      className="w-full h-screen flex justify-center items-center bg-gray-100"
+      className="w-full h-screen flex justify-center items-center bg-white"
       id="aboutme"
     >
       <div className="max-w-screen-lg mx-6 md:mx-10 lg:mx-20 xl:mx-32 flex flex-col gap-4 items-center mt-20 xl:mt-44 text-slate-800">

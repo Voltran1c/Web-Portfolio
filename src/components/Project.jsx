@@ -3,7 +3,7 @@ import "./Project.css";
 function Project() {
   return (
     <div
-      className="w-full min-h-screen flex justify-center items-center bg-gray-50"
+      className="w-full min-h-screen flex justify-center items-center"
       id="project"
     >
       <div className="w-4/5 flex flex-col gap-4 xl:w-2/3">

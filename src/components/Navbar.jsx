@@ -2,7 +2,7 @@ import CircumIcon from "@klarr-agency/circum-icons-react";
 
 function Navbar() {
   return (
-    <div className="dropdown dropdown-bottom dropdown-end flex justify-end fixed right-0 mr-2 mt-2">
+    <div className="dropdown dropdown-bottom dropdown-end flex justify-end fixed right-0 mr-2 mt-2 z-40">
       <div
         tabIndex="0"
         role="button"

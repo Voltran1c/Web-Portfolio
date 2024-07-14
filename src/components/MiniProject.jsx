@@ -99,7 +99,7 @@ const posts = [
 function MiniProject() {
   return (
     <div
-      className="bg-gray-50 py-24 sm:py-32 overflow-x-auto text-slate-800 italic font-semibold"
+      className="py-24 sm:py-32 overflow-x-auto text-slate-800 italic font-semibold"
       id="miniproject"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">

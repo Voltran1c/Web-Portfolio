@@ -25,25 +25,25 @@ function Navbar() {
         <li>
           <a
             className="hover:text-black font-bold text-3xl italic hover:font-extrabold text-slate-500"
-            href="#portfolio"
-          >
-            PORTFOLIO
-          </a>
-        </li>
-        <li>
-          <li>
-            <a
-              className="hover:text-black font-bold text-3xl italic hover:font-extrabold text-slate-500"
-              href="#logotechstack"
-            >
-              TECH STACK
-            </a>
-          </li>
-          <a
-            className="hover:text-black font-bold text-3xl italic hover:font-extrabold text-slate-500"
             href="#miniproject"
           >
             MINIPROJECT
+          </a>
+        </li>
+        <li>
+          <a
+            className="hover:text-black font-bold text-3xl italic hover:font-extrabold text-slate-500"
+            href="#logotechstack"
+          >
+            TECH STACK
+          </a>
+        </li>
+        <li>
+          <a
+            className="hover:text-black font-bold text-3xl italic hover:font-extrabold text-slate-500"
+            href="#portfolio"
+          >
+            PROJECT
           </a>
         </li>
         <li>

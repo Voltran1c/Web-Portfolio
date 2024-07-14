@@ -1,9 +1,15 @@
+import "./AboutMe.css";
+
 function AboutMe() {
   return (
-    <div className="w-full h-screen flex justify-start" id="#aboutme">
+    <div className="w-full h-screen flex justify-start" id="aboutme">
       <div className="w-4/6 flex flex-col gap-1 items-center mt-44 text-slate-800">
         <h2 className="text-6xl italic font-semibold border-y-4 py-4 border-gray-300">
-          ABOUT ME ABOUT ME ABOUT ME
+          <span className="text-marquee-aboutme w-2/3">
+            <span>ABOUT ME</span>
+            <span>ABOUT ME</span>
+            <span>ABOUT ME</span>
+          </span>
         </h2>
         <p className="w-9/12 h-auto mr-12 italic font-semibold text-xl text-slate-800 text-justify content-center pt-10 pl-10">
           I graduated from Generation Thailand in the Junior Software Developer
@@ -73,4 +79,5 @@ function AboutMe() {
     </div>
   );
 }
+
 export default AboutMe;

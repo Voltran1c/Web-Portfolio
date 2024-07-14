@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import ScrollOnUserActionComponent from "./components/ScrollOnUserActionComponent";
 import MiniProject from "./components/MiniProject";
 import LogoTechStack from "./components/LogoTechStack";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,19 +17,20 @@ function App() {
         <section id="home">
           <Hero />
         </section>
-        <section id="portfolio">
-          <Project />
+        <section id="miniproject">
+          <MiniProject />
         </section>
         <section id="logotechstack">
           <LogoTechStack />
         </section>
-        <section id="miniproject">
-          <MiniProject />
+        <section id="portfolio">
+          <Project />
         </section>
         <section id="aboutme">
           <AboutMe />
         </section>
       </div>
+      <Footer />
     </>
   );
 }

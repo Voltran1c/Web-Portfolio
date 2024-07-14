@@ -16,18 +16,18 @@ const posts = [
   },
   {
     id: 2,
-    title: "Shopping Cart",
-    href: "https://38-watcharapong-js.vercel.app/",
+    title: "Stop Watch",
+    href: "https://mini-project-stop-watch.vercel.app/",
     description:
-      "Develop a shopping cart page to add products, requiring product name, price, and image. Validate all inputs and calculate total product prices.",
-    date: "May 24, 2024",
-    datetime: "2024-05-24",
-    category: { title: "JavaScript" },
+      "A stopwatch has control buttons that can start, stop, and reset the time, which will change the state values to control the Stopwatch's operation.",
+    date: "Jul 14, 2024",
+    datetime: "2024-07-14",
+    category: { title: "React" },
     author: {
       name: "Learn more",
-      href: "https://github.com/Voltran1c/38_Watcharapong-JS",
+      href: "https://github.com/Voltran1c/MiniProject_StopWatch",
       imageUrl:
-        "https://static.vecteezy.com/system/resources/previews/027/381/351/original/shopping-cart-icon-shopping-trolley-icon-shopping-cart-logo-container-for-goods-and-products-economics-symbol-design-elements-basket-symbol-silhouette-retail-design-elements-vector.jpg",
+        "https://static.vecteezy.com/system/resources/previews/002/332/796/non_2x/stopwatch-icon-free-vector.jpg",
     },
   },
   {
@@ -48,18 +48,18 @@ const posts = [
   },
   {
     id: 4,
-    title: "Build a Calculator",
-    href: "#",
+    title: "Shopping Cart",
+    href: "https://38-watcharapong-js.vercel.app/",
     description:
-      "Ability to perform basic calculations such as addition, subtraction, multiplication, division, and possibly additional features like exponentiation, with a user-friendly display.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
-    category: { title: "React" },
+      "Develop a shopping cart page to add products, requiring product name, price, and image. Validate all inputs and calculate total product prices.",
+    date: "May 24, 2024",
+    datetime: "2024-05-24",
+    category: { title: "JavaScript" },
     author: {
       name: "Learn more",
-      href: "#",
+      href: "https://github.com/Voltran1c/38_Watcharapong-JS",
       imageUrl:
-        "https://static.vecteezy.com/system/resources/thumbnails/002/205/856/small_2x/calculator-icon-free-vector.jpg",
+        "https://static.vecteezy.com/system/resources/previews/027/381/351/original/shopping-cart-icon-shopping-trolley-icon-shopping-cart-logo-container-for-goods-and-products-economics-symbol-design-elements-basket-symbol-silhouette-retail-design-elements-vector.jpg",
     },
   },
   {
@@ -99,7 +99,7 @@ const posts = [
 function MiniProject() {
   return (
     <div
-      className="bg-white py-24 sm:py-32 overflow-x-auto text-slate-800 italic font-semibold"
+      className="bg-gray-50 py-24 sm:py-32 overflow-x-auto text-slate-800 italic font-semibold"
       id="miniproject"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -115,7 +115,7 @@ function MiniProject() {
           {posts.map((post) => (
             <article
               key={post.id}
-              className="flex max-w-xl flex-col items-start justify-between"
+              className="flex max-w-xl flex-col items-start justify-between border-b-2"
             >
               <div className="flex items-center gap-x-4 text-xs">
                 <time dateTime={post.datetime} className="text-slate-500">

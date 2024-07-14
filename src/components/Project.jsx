@@ -1,3 +1,4 @@
+import "./Project.css";
 function Project() {
   return (
     <div
@@ -6,7 +7,9 @@ function Project() {
     >
       <div className="w-4/5 flex flex-col gap-4">
         <h2 className="text-6xl italic font-semibold border-y-4 py-4 border-gray-300 text-center text-slate-800">
-          PROJECT PROJECT PROJECT
+          <span className="text-marquee w-2/3">
+            <span>PROJECT</span> <span>PROJECT</span> <span>PROJECT</span>
+          </span>
         </h2>
         <div className="flex flex-col items-center h-full text-slate-800 gap-4">
           <a
@@ -46,12 +49,14 @@ function Project() {
             href="#"
           >
             <h3 className="w-1/3 italic font-semibold text-3xl">
-              03. USER AUTHENTICATION
+              03. CHAT APPICATION
             </h3>
             <p className="w-2/3 italic font-semibold text-xl text-slate-800 text-justify">
-              Build an API for user authentication, including registration,
-              login, and account management functionalities. Utilize JWT (JSON
-              Web Tokens) for security measures.
+              Developing a chat application using React involves designing a
+              user-friendly UI, efficient state management, seamless backend
+              integration, and utilizing WebSocket for real-time communication.
+              This setup allows immediate interaction and responsiveness for
+              users.
             </p>
           </a>
           <a

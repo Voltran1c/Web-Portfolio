@@ -4,7 +4,7 @@ function Hero() {
       className="flex justify-center w-full h-screen content-center text-slate-800 border-b"
       id="#hero"
     >
-      <div className="w-[34rem] h-full z-10 absolute mr-[32rem] text-right font-semibold text-7xl content-center pt-8 pb-20 pr-4">
+      <div className="w-[34rem] h-full z-10 absolute mr-[32rem] text-right font-semibold text-7xl content-center pt-8 pb-20 pr-4 xl:mr-[550px]">
         <p className="pr-4 italic font-semibold drop-shadow-[-10px_1px_1px_rgb(209,213,219)] py-6">
           DON`T
         </p>

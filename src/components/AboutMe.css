@@ -1,0 +1,19 @@
+@keyframes marquee-aboutme {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(55%);
+  }
+}
+
+.text-marquee-aboutme {
+  display: inline-block;
+  animation: marquee-aboutme 10s linear infinite;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text-marquee-aboutme span {
+  margin-right: 4rem; /* ปรับเพิ่มเว้นวรรคตามที่ต้องการ */
+}

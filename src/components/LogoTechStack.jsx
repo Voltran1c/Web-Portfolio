@@ -3,7 +3,7 @@ const LogoTechStack = () => {
     <div className="pb-16 w-full min-h-screen" id="logotechstack">
       <div className="container mx-auto pt-16">
         <div className="w-11/12 xl:w-2/3 mx-auto sm:mb-10 mb-16">
-          <h1 className="italic text-4xl lg:text-6xl text-center text-slate-800 font-semibold mb-5 py-4 border-b-4 border-gray-300">
+          <h1 className="italic text-4xl lg:text-6xl text-center text-slate-800 font-semibold mb-5 py-4 border-y-4 border-gray-300">
             LANGUAGES AND TOOLS
           </h1>
           <p className="italic text-lg lg:text-xl text-center lg:text-justify text-slate-800 font-semibold w-10/12 mx-auto">

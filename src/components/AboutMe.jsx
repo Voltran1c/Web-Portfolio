@@ -7,8 +7,8 @@ function AboutMe() {
       id="aboutme"
     >
       <div className="max-w-screen-lg mx-6 md:mx-10 lg:mx-20 xl:mx-32 flex flex-col gap-4 items-center mt-20 xl:mt-44 text-slate-800">
-        <h2 className="text-4xl md:text-6xl italic font-semibold border-b-4 py-2 border-gray-300 text-center">
-          ABOUT ME
+        <h2 className="text-4xl md:text-6xl italic font-semibold border-y-4 py-2 border-gray-300 text-center">
+          ABOUT ME ABOUT ME ABOUT ME
         </h2>
         <p className="text-lg md:text-xl italic font-semibold text-slate-800 text-justify px-4 md:px-10">
           I graduated from Generation Thailand in the Junior Software Developer

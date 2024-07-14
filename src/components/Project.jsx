@@ -7,7 +7,7 @@ function Project() {
       id="project"
     >
       <div className="w-4/5 flex flex-col gap-4 xl:w-2/3">
-        <h2 className="text-4xl lg:text-6xl italic font-semibold border-b-4 py-4 border-gray-300 text-center text-slate-800">
+        <h2 className="text-4xl lg:text-6xl italic font-semibold border-y-4 py-4 border-gray-300 text-center text-slate-800">
           <span className="text-marquee w-full xl:w-2/3 block">
             <span>PROJECT</span> <span>PROJECT</span> <span>PROJECT</span>
           </span>
